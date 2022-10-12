@@ -1,0 +1,33 @@
+package applicacao;
+//Ao iniciar uma nova partida, o jogo deve apresentar um menu com
+//as opções para criar um personagem, começar a partida ou sair do jogo
+
+import java.util.Scanner;
+
+public class TelaEscolhaDePersonagem {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);	
+		
+		String escolherPersonage;
+		
+		System.out.println("ESCOLHA UM PERSONAGEM:");
+		System.out.println("GUERREIRO");
+		System.out.println("MAGO");
+		System.out.println("ARQUEIRO");
+		escolherPersonage = scanner.nextLine(); //usar o .upper
+		
+		if (escolherPersonage == "GUERREIRO") {
+			System.out.println("Você escolheu o personagem GUERREIRO");
+		}
+		else {
+			if(escolherPersonage == "MAGO")
+			System.out.println("Você escolheu o personagem MAGO");
+		}
+			 
+				if (escolherPersonage == "ARQUEIRO")
+				System.out.println("Você escolheu o personagem ARQUEIRO");	
+			}	
+	}
+	
+

@@ -1,0 +1,31 @@
+package applicacao;
+
+import java.util.Scanner;
+
+public class Tela {
+	
+	public static void main(String[] args) {
+	
+	Scanner scanner = new Scanner(System.in);
+	
+	double iniciarJogo;
+	double sairJogo;
+	
+	System.out.println("SEJA BEM VINDO AO HEROS OF POO! SELECIONE UMA DAS OPÇÕES ABAIXO!");
+	
+	System.out.println("COMEÇAR O JOGO(Digite 1)");
+	iniciarJogo = scanner.nextDouble();
+	
+	System.out.println("SAIR DO JOGO(Digite 2)");
+	sairJogo = scanner.nextDouble();
+	
+	
+}
+	
+	
+}
+	
+	
+	
+	
+	
