@@ -1,0 +1,22 @@
+//O jogo inicia apresentando um menu para o usuário, oferecendo iniciar uma nova
+//partida ou sair do jogo.
+package applicacao;
+
+import java.util.Scanner;
+
+public class TelaSairJogo {
+	
+	public static void main(String[] args) {
+	
+	Scanner scanner = new Scanner(System.in);	
+	
+	double sairJogo;
+	
+	System.out.println("SAIR DO JOGO(Digite 2)");
+	sairJogo = scanner.nextInt();
+	
+	if (sairJogo == 2) {
+		System.out.print("Você saiu do Jogo Heros of POO!");
+	}
+	}	
+}
