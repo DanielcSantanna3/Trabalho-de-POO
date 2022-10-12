@@ -11,7 +11,7 @@ public class TelaEscolhaDePersonagem {
 		
 		double escolherPersonage;
 		
-		System.out.println("ESCOLHA UM PERSONAGEM:");
+		//System.out.println("ESCOLHA UM PERSONAGEM:");
 		System.out.println("DIGITE 1 PARA ESCOLHER O GUERREIRO");
 		System.out.println("DIGITE 2 PARA ESCOLHER O MAGO");
 		System.out.println("DIGITE 3 PARA ESCOLHER O ARQUEIRO");
@@ -31,7 +31,7 @@ public class TelaEscolhaDePersonagem {
 			System.out.println("ATENÇÃO: VOCÊ DIGITOU O NÚMERO ERRADO! ESCOLHA O NÚMERO 1, 2 OU 3!");
 		}
 	}
-}
+}	
 				
 			
 			

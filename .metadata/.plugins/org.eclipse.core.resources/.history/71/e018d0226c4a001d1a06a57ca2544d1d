@@ -1,0 +1,17 @@
+//definindo o nome do personagem;
+package applicacao;
+
+import java.util.Scanner;
+
+public class TelaNomePersonagem {
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);	
+	
+	String escolherNome;
+	escolherNome.toUpperCase() = scanner.next();
+	System.out.println("Você deverá escolher um nome para este personage:");
+	System.out.println("O nome do personagem é:" + escolherNome);
+	
+}
+}
