@@ -13,7 +13,7 @@ public class Guerreiro extends Personagem {
 	private static Arma arma2 = new Machado();
 
 	public Guerreiro() {
-		super(ataque,defesa,pontosDeVida,arma1,arma2);
+		super(ataque,defesa,pdv,arma1,arma2);
 	}
 
 }

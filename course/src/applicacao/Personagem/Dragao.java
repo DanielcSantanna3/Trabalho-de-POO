@@ -9,7 +9,7 @@ public class Dragao extends Personagem {
 	private static float pdv = 300;
 
 	public Dragao() {
-		super(ataque,defesa,pontosDeVida,null,null);
+		super(ataque,defesa,pdv,null,null);
 	}
 
 }

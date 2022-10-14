@@ -13,7 +13,7 @@ public class Mago extends Personagem {
 	private static Arma arma2 = new Cajado();
 
 	public Mago() {
-		super(ataque,defesa,pontosDeVida,arma1,arma2);
+		super(ataque,defesa,pdv,arma1,arma2);
 	}
 
 }
