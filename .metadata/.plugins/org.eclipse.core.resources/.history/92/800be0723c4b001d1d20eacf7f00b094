@@ -1,0 +1,16 @@
+package applicacao;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Mago mago = new Mago(20.0, 10.0, 200.0);
+		mago.setAtaque(20);
+		mago.setDefesa(10);
+		mago.setPdv(200);
+
+		System.out.format("Ataque: %d, / Defesa: %d / PDV: %d", mago.getAtaque(), mago.getDefesa(), mago.getPdv());
+	}
+
+}

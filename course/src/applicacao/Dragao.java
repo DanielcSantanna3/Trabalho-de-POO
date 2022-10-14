@@ -1,7 +1,23 @@
 package applicacao;
 
-public class Dragao extends Personagem{
-	private static int ataque = 20;
-	private static int defesa = 10;
-	private static int pdv = 200;
+public class Dragao {
+	
+	public double ataque; 
+	public double defesa;
+	public double pdv;
+
+	public double atacar() {
+		double atacar = this.ataque;
+		return atacar;
+	}
+
+	public double defender() {
+		double defender = this.defesa;
+		return defender;
+	}
+	public double pdv() {
+		double atacar = this.pdv;
+		return atacar;
+	}
+}
 }

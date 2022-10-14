@@ -1,0 +1,75 @@
+package applicacao;
+
+import java.util.Scanner;
+
+public class Telas {
+
+	private static final int TelaCriarPersonagem = 0;
+	Scanner scanner = new Scanner(System.in);
+
+	public void TelaInicial() {
+
+		double TelaInicial;
+
+		System.out.println("COMEÇAR O JOGO(Digite 1)");
+		System.out.println("SAIR DO JOGO(Digite 2)");
+
+		TelaInicial = scanner.nextDouble();
+
+		if (TelaInicial == 1) {
+			System.out.println("Você iniciou o Jogo Heros of POO!");
+		} 
+		else if (TelaInicial == 2) {
+			System.out.println("Você saiu do Jogo Heros of POO!");
+			System.exit(1);
+		} 
+		else {
+			System.out.println("ATENÇÃO: VOCÊ DIGITOU O NÚMERO ERRADO! ESCOLHA O NÚMERO 1, 2");
+		}
+	}
+
+	public void TelaCriarPersonagem() {
+		System.out.println("COMEÇAR O JOGO(Digite 1)");
+		System.out.println("SAIR DO JOGO(Digite 2)");
+		System.out.println("CRIAR PERSONAGEM (Digite 3)");
+	
+		double TelaCriarPersonagem = scanner.nextDouble();
+
+		if(TelaCriarPersonagem==1){
+			System.out.println("Você iniciou o Jogo Heros of POO!");
+		}
+		else if(TelaCriarPersonagem==2) {
+			System.out.println("Você saiu do Jogo Heros of POO!");
+			System.exit(1);
+		}
+		else {
+		System.out.println("Vamos criar um Personagem!");
+		}
+	} 
+	
+	public void TelaEscolherPersonage;
+	
+	//System.out.println("ESCOLHA UM PERSONAGEM:");
+		System.out.println("DIGITE 1 PARA ESCOLHER O GUERREIRO");
+	System.out.println("DIGITE 2 PARA ESCOLHER O MAGO");
+	System.out.println("DIGITE 3 PARA ESCOLHER O ARQUEIRO");
+	
+	escolherPersonage = scanner.nextDouble(); 
+	
+	if (escolherPersonage == 1) {
+		System.out.println("Você escolheu o personagem GUERREIRO");
+	}
+	else if(escolherPersonage == 2) {
+		System.out.println("Você escolheu o personagem MAGO");
+	}
+	else if (escolherPersonage == 3) {
+		System.out.println("Você escolheu o personagem ARQUEIRO");	
+	}
+	else {
+		System.out.println("ATENÇÃO: VOCÊ DIGITOU O NÚMERO ERRADO! ESCOLHA O NÚMERO 1, 2 OU 3!");
+	}
+}
+}	
+}
+
+	

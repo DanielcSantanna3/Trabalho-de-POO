@@ -1,0 +1,53 @@
+package applicacao;
+
+public class Mago {
+
+	public double ataque;
+	public double defesa;
+	public double pdv;
+
+	public Mago () {
+		System.out.println("Estes são as caracteristicas iniciais do MAGO:");
+		ataque = 20;
+		defesa = 10;
+		pdv = 200;
+	}
+	
+	public double getAtaque() {
+		return ataque;
+	}
+
+	public void setAtaque(double ataque) {
+		this.ataque = ataque;
+	}
+
+	public double getDefesa() {
+		return defesa;
+	}
+
+	public void setDefesa(double defesa) {
+		this.defesa = defesa;
+	}
+
+	public double getPdv() {
+		return pdv;
+	}
+
+	public void setPdv(double pdv) {
+		this.pdv = pdv;
+	}
+
+// public double atacar() {
+// double atacar = this.ataque;
+// return atacar;
+// }
+
+// public double defender() {
+/// double defender = this.defesa;
+// return defender;
+// }
+// public double pdv() {
+// double atacar = this.pdv;
+// return atacar;
+// }
+//}

@@ -1,0 +1,26 @@
+package applicacao;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Telas telaIniciar = new Telas();
+		
+		telaIniciar.TelaInicial();
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Mago mago = new Mago(20.0, 10.0, 200.0);

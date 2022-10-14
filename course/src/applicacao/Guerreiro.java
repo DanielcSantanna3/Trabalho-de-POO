@@ -1,13 +1,22 @@
 package applicacao;
 
-public class Guerreiro extends Personagem{
-	private static final int ataqueDoPersonagem = 30;
-	private static final int defesaDoPersonagem = 20;
-	private static final int pdv = 180;
-	
-	
-	
-	
+public class Guerreiro{
+
+	public double ataque; 
+	public double defesa;
+	public double pdv;
+
+	public double atacar() {
+		double atacar = this.ataque;
+		return atacar;
+	}
+
+	public double defender() {
+		double defender = this.defesa;
+		return defender;
+	}
+	public double pdv() {
+		double atacar = this.pdv;
+		return atacar;
+	}
 }
-
-

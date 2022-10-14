@@ -1,0 +1,25 @@
+package applicacao;
+
+import java.util.Scanner;
+
+public class Telas {
+
+	
+	
+	public void TelaIniciar() {
+		Scanner scanner = new Scanner(System.in);	
+		
+		double TelaIniciar;
+		
+		System.out.println("COMEÇAR O JOGO(Digite 1)");
+		TelaIniciar = scanner.nextDouble();
+		
+		if (TelaIniciar == 1) {
+			System.out.println("Você iniciou o Jogo Heros of POO!");
+		}
+		}	
+	
+}
+
+	
+	

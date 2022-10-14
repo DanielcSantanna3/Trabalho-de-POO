@@ -1,0 +1,26 @@
+package applicacao;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Telas telaIniciar = new Telas();
+		Telas telaCriarPersonagem = new Telas();
+		Telas telaEscolherPersonagem = new Telas();
+		Telas telaArmaArqueiro = new Telas();
+		
+		
+		
+		telaIniciar.TelaInicial();
+		telaCriarPersonagem.TelaCriarPersonagem();
+		telaEscolherPersonagem.TelaEscolherPersonage();
+		telaArmaArqueiro.TelaArmaArqueiro();
+		
+		//Mago mago = new Mago(20.0, 10.0, 200.0);
+		
+		
+
+	}
+}
+
+

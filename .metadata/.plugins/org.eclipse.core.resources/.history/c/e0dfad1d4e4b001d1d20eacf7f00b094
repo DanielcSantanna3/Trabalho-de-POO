@@ -1,0 +1,48 @@
+package applicacao;
+
+import java.util.Scanner;
+
+public class Telas {
+
+	Scanner scanner = new Scanner(System.in);
+
+	public void TelaInicial() {
+
+		double TelaInicial;
+
+		System.out.println("COMEÇAR O JOGO(Digite 1)");
+		System.out.println("SAIR DO JOGO(Digite 2)");
+
+		TelaInicial = scanner.nextDouble();
+
+		if (TelaInicial == 1) {
+			System.out.println("Você iniciou o Jogo Heros of POO!");
+		} else if (TelaInicial == 2) {
+			System.out.println("Você saiu do Jogo Heros of POO!");
+			System.exit(1);
+		} else {
+			System.out.println("ATENÇÃO: VOCÊ DIGITOU O NÚMERO ERRADO! ESCOLHA O NÚMERO 1, 2");
+		}
+	}
+
+	public void TelaCriarPersonagem(); {
+	
+		System.out.println("COMEÇAR O JOGO(Digite 1)");
+		System.out.println("SAIR DO JOGO(Digite 2)");
+		System.out.println("CRIAR PERSONAGEM (Digite 3)");
+	
+		TelaCriarPersonagem=scanner.nextDouble();
+
+	if(TelaCriarPersonagem==1){
+		System.out.println("Você iniciou o Jogo Heros of POO!");
+	}
+	else if(TelaCriarPersonagem==2) {
+		System.out.println("Você saiu do Jogo Heros of POO!");
+		System.exit(1);
+	}else {
+		System.out.println("Vamos criar um Personagem!");
+	}
+}
+}
+
+	
